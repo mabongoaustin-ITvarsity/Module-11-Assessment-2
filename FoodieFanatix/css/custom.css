@@ -1,0 +1,91 @@
+html{
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.blog-header{
+    padding-bottom: 5px;
+    margin-top: 8rem;
+    max-width: 800px;
+    color: cornflowerblue;
+}
+
+@media (max-width: 768px){
+    .blog-header{
+        margin-top: 5rem;
+    }
+}
+
+.container{
+    max-width: 860px;
+}
+
+.team{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+
+.card-deck .card{
+    min-width: 220px;
+}
+
+.card-text{
+    padding-top: 1rem;
+}
+
+.card-block{
+    min-height: 220px;
+}
+
+
+h2{
+    text-align: center;
+    border: solid 15px;
+    color: black;
+    font-style: italic;
+}
+
+.btn-group{
+    left: 570px;
+    color: chartreuse;
+}
+
+body{
+    padding-top: 45px;
+    color: indianred;
+    background-color: red;
+}
+h1{
+    padding-top: 80px;
+    color:white;
+    font-size: 30px;
+    font-style: italic;
+}
+p{
+    color: black;
+    font-size: 23;
+    font-style: italic;
+}
+
+a{
+    color: fuchsia;
+    font-size: 15px;
+}
+
+img{
+    padding-bottom: 10px;
+}
+h3{
+    color: black;
+    text-align: center;
+    border: solid 15px;
+    font-style: italic; 
+}
